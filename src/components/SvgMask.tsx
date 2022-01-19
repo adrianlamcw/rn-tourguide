@@ -60,7 +60,7 @@ export class SvgMask extends Component<Props, State> {
   constructor(props: Props) {
     super(props)
 
-    this.windowDimensions = Dimensions.get('window')
+    this.windowDimensions = Dimensions.get('screen')
 
     this.firstPath = `M0,0H${this.windowDimensions.width}V${
       this.windowDimensions.height
